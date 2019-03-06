@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="s2e" fetch="." />
+  <remote  name="float" fetch="git://github.com/lihungte96/" />
 
   <default revision="master" remote="s2e" sync-j="4" />
 
@@ -24,7 +25,7 @@
   <project name="libs2e"/>
   <project name="libs2eplugins"/>
   <project name="libs2ecore"/>
-  <project name="klee"/>
+  <project name="klee-float" path="klee" remote="float" revision="tool_exchange_03.05.2017_rebase_extra_bug_fixes"/>
 
   <project name="docs"/>
   <project name="tools"/>
